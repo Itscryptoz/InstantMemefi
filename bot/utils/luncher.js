@@ -27,7 +27,7 @@ class Luncher {
 ██ ██  ██ ██    ██    ██        ██      ██████    ████   ██████     ██    ██    ██ 
 ██  ██ ██ ██    ██    ██        ██      ██   ██    ██    ██         ██    ██    ██ 
 ██   ████  ██████     ██         ██████ ██   ██    ██    ██         ██     ██████
-NotCryptoz © NotCryptoz
+Made By © NotCryptoz
 `;
   }
 
@@ -38,7 +38,7 @@ NotCryptoz © NotCryptoz
       
       logger.info(`Detected <lb>${sessionsCount}</lb> sessions | <pi>${proxiesCount}</pi> proxies`);
       
-      logger.paragraph('<ye><u><b>SAVANOP</b></u></ye> <br />\n<b><bl>en:</bl></b> JOIN CHANNEL FAST  \n<b><bl>ru:</bl></b> JOIN CHANNEL FAST  \n<b><bl>es:</bl></b> JOIN CHANNEL FAST  \n<b><bl>fr:</bl></b> JOIN CHANNEL FAST  \n<b><bl>it:</bl></b> JOIN CHANNEL FAST  \n<b><bl>gh:</bl></b>  JOIN CHANNEL FAST \n\n<b>IF YOU DONT JOIN THE CHANNEL, YOU ARE GAY </b> \n<la>https://t.me/Instant_Earn77</la>\n');
+      logger.paragraph('<ye><u><b>NotCryptoz</b></u></ye> <br />\n<b><bl>en:</bl></b> JOIN CHANNEL FAST  \n<b><bl>ru:</bl></b> JOIN CHANNEL FAST  \n<b><bl>es:</bl></b> JOIN CHANNEL FAST  \n<b><bl>fr:</bl></b> JOIN CHANNEL FAST  \n<b><bl>it:</bl></b> JOIN CHANNEL FAST  \n<b><bl>gh:</bl></b>  JOIN CHANNEL FAST \n\n<b>IF YOU DONT JOIN THE CHANNEL, YOU ARE GAY </b> \n<la>https://t.me/Instant_Earn77</la>\n');
       
       console.log(this.#start_text);
     } catch (error) {
@@ -82,14 +82,14 @@ NotCryptoz © NotCryptoz
 
     if (action === 1) {
       const secretCode = await input({ message: 'Enter the secret code:' });
-      if (secretCode !== 'ADMIN') {
+      if (secretCode !== 'INSTANT') {
         logger.error('Invalid secret code. Access denied.');
         return;
       }
       register.start();
     } else if (action === 2) {
       const secretCode = await input({ message: 'Enter the secret code:' });
-      if (secretCode !== 'CODING') {
+      if (secretCode !== 'MEMEFI') {
         logger.error('Invalid secret code. Access denied.');
         return;
       }
@@ -99,14 +99,14 @@ NotCryptoz © NotCryptoz
       await this.#run_tasks_query();
     } else if (action === 4) {
       const secretCode = await input({ message: 'Enter the secret code:' });
-      if (secretCode !== 'ADMINLOVE121') {
+      if (secretCode !== 'INSTANTKOP') {
         logger.error('Invalid secret code. Access denied.');
         return;
       }
       await this.#addApiCredentials();
     } else if (action === 5) {
       const secretCode = await input({ message: 'Enter the secret code:' });
-      if (secretCode !== 'F0CKHATERS') {
+      if (secretCode !== 'SUB') {
         logger.error('Invalid secret code. Access denied.');
         return;
       }
